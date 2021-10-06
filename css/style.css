@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+* {
+    color: #000;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+} 
+/* -------------------- */
+html, 
+body {
+    height: 100%;
+}
+html {
+  font-size: 16px;  
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #e5f1fb;
+}
+.wrapper {
+    min-height: 100%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center; 
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    color: rgb(15, 49, 240);
+    text-shadow: rgb(34 50 127) 2px 2px 2px;
+    margin: 0 0 60px 0;
+}
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    color: #096826;
+    font-weight: 900;
+    letter-spacing: 6.2px;
+}
+
+
+/* -------------------- */
+
+/* MAIN */
+h3 {
+    font-size: 28px;
+    color: #293986;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.quote span {
+    display: block;
+    text-align: right;
+    font-size: 25px;
+    color: #ff9800;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0 0 100px 0;
+    line-height: 35px;
+}
+.items {
+    margin: 0 0 40px 0;
+}
+.item {
+    padding: 40px 50px;
+    margin: 0 0 60px 0;
+}
+.switzerland {
+    background: url(../img/luzern1.jpg) 0 100% / 300px no-repeat, url(../img/luzern2.jpg) 0 0 / 300px no-repeat, url(../img/centre.jpg) 100% 0 / 300px no-repeat, url(../img/wall.jpg) 100% 60% / 300px no-repeat, url(../img/zamok.jpg) 100% 100% / 300px no-repeat, url(../img/mountains.jpg) 0px 0px / cover no-repeat;
+}
+.austria {
+    background: url(../img/city1.jpg) 0px 0px / 300px no-repeat, url(../img/city2.jpg) 0px 30% / 300px no-repeat, url(../img/city3.jpg) 0px 67% / 300px no-repeat, url(../img/city4.jpg) 0px 100% / 300px no-repeat, linear-gradient(rgb(229, 103, 91) 0%, rgb(240, 47, 23) 33%, rgb(240, 47, 23) 33%, rgb(241, 111, 92) 34%, rgb(255, 255, 255) 34%, rgb(255, 255, 255) 71%, rgb(240, 47, 23) 71%, rgb(229, 56, 39) 100%);
+}
+.hungary {
+    background: url(../img/hungary1.jpg) 0px 0px / 300px no-repeat, url(../img/hungary2.jpg) 100% 30% / 300px no-repeat, url(../img/hungary3.jpg) 0px 67% / 300px no-repeat, url(../img/hungary4.jpg) 100% 100% / 300px no-repeat, url(../img/hungary5.jpg) 0px 0px / cover no-repeat;
+}
+.hungary h3 {
+    color: #ff9800;
+}
+.country {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.country p {
+    font-size: 25px;
+    margin: 0px 0px 30px;
+    color: #1c1a1a;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+}
+.country span {
+    font-weight: 700;
+}
+.aphorisms {
+    margin: 0 0 60px 0;
+}
+.list {
+    padding: 0 26px 0 0;
+}
+.list li  {
+    font-size: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: #ff9800;
+    background: url(../img/approval-24.png) 100% 100% / 20px 20px no-repeat;
+}
+.box {
+    font-family: Roboto, sans-serif;
+}
+.exercise {
+    background-color: #fff;
+    max-width: 264px;
+    margin: 0 auto 75px;
+    padding: 20px;
+    box-shadow: 10px 15px 22px 0 #506b76;
+}
+.exercise h4,
+.exercise ul {
+    margin: 0 auto;
+}
+.exercise h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    margin: 0 0 28px 0;
+}
+li.link {
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    margin: 0 0 16px 0;
+    padding: 0 0 0 34px;
+}
+.address {
+    background: url(../img/address.png) no-repeat;
+}
+.tel {
+    background: url(../img/tel.png) no-repeat;
+}
+.site {
+    background: url(../img/email.png) no-repeat;
+}
+.time {
+    background: url(../img/time.png) no-repeat;
+}
+.bg {
+    background: url(../img/img.png) 0 0/ cover no-repeat;
+    padding: 280px 0 230px 210px;
+}
+.title {    
+    max-width: 604px;
+    margin-bottom: 40px;
+}
+.caption {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    color: #fff;
+}
+.button {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px;
+    background: #C40B0B;
+}
+/* -------------------- */
+
+/* FOOTER */
+.footer {
+    color: #000;
+    text-align: center;
+    line-height: 200%;
+    font-size: 14px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+/* -------------------- */
